@@ -1,0 +1,15 @@
+{
+  "name": "jset",
+  "version": "0.0.1-alpha",
+  "author": "liliang",
+  "main": "src/main.js",
+  "license": "MIT",
+  "bin": {
+    "jset": "./src/main.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "javascript-obfuscator": "^4.1.0"
+  }
+}
