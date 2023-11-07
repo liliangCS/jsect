@@ -11,5 +11,13 @@
     "colors": "^1.4.0",
     "commander": "^11.1.0",
     "javascript-obfuscator": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liliangCS/jset"
+  },
+  "keywords": [
+    "jset",
+    "liliang"
+  ]
 }
