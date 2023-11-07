@@ -1,6 +1,6 @@
 {
   "name": "jsect",
-  "version": "0.0.1-alpha",
+  "version": "0.0.3-alpha",
   "author": "liliang",
   "main": "src/main.js",
   "license": "MIT",

@@ -16,14 +16,14 @@ const handler = async (options) => {
     await writeFile(resolve(process.cwd(), output), encrypt(jsCodeStr), {
       encoding: "utf8",
     });
-    console.log(colors.green("源文件加密成功!"));
+    console.log(colors.blue("Tips:"), colors.green("源文件加密成功!"));
     console.log(
-      colors.rainbow("输出文件目录:"),
-      colors.bgWhite(resolve(process.cwd(), output))
+      colors.blue("输出文件目录:"),
+      colors.green(resolve(process.cwd(), output))
     );
   } catch (error) {
-    console.log(colors.cyan("源文件加密失败!"));
-    console.log(colors.rainbow("程序发生错误:"), colors.bgWhite(error.message));
+    console.log(colors.blue("Tips:"), colors.red("源文件加密失败!"));
+    console.log(colors.blue("程序发生错误:"), colors.red(error.message));
   }
 };
 
