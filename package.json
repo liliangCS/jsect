@@ -1,11 +1,11 @@
 {
-  "name": "jset",
+  "name": "jsect",
   "version": "0.0.1-alpha",
   "author": "liliang",
   "main": "src/main.js",
   "license": "MIT",
   "bin": {
-    "jset": "./src/main.js"
+    "jsect": "./src/main.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liliangCS/jset"
+    "url": "https://github.com/liliangCS/jsect"
   },
   "keywords": [
-    "jset",
+    "jsect",
     "liliang"
   ]
 }
